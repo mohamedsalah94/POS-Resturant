@@ -1,0 +1,39 @@
+:root {
+    --sidebar-products-background-color: #FFFFFF;
+    --sidebar-categories-produscts-background-color: #FFFFFF;
+    --logo-placeholder-font-color: #FF6161;
+    --navbar-background: #FFFFFF;
+    --navbar-font-color: #1F1D2B;
+    --main-font-color: #000000;
+    --input-background-color: #FFFFFF;
+    --input-shadow-color: #00000029;
+    --input-font-color: #000000;
+    --sidebar-products-details-font-color: #B1B1B1;
+    --total-font-color: #000000;
+    --category-active-border-color: #FF6C6C;
+    --category-active-shadow-color: #FF6C6C2B;
+    --categories-shadow-color: #0000002B;
+    --products-shadow-color: #00000029;
+    --categories-font-color: #8f8f8f;
+    --price-font-color: #FF3737;
+    --total-btn-font-color: #FFFFFF;
+    --total-btn-background-color: #000000;
+    --modal-main-font-color: #3D3A3A;
+    --login-background-color: #F5F6FA;
+}
+
+.product {
+    border-bottom: 1px solid var(--logo-placeholder-font-color);
+    border-top: 1px solid var(--logo-placeholder-font-color);
+    margin-left: 0;
+    border-radius: 0;
+}
+
+.product:last-child {
+    border-bottom: none;
+}
+
+.product .quan-salary .quant .minus,
+.products-size-color-price .quan-salary-clothes .minus-all-quan {
+    border: 1px solid var(--logo-placeholder-font-color);
+}

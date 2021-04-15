@@ -1,0 +1,171 @@
+body {
+    direction: rtl;
+}
+
+.input-search .input-text {
+    width: 96%;
+    margin-right: 5px;
+}
+
+.input-search .input-text::placeholder {
+    text-align: right;
+}
+
+.input-search .input-btn-search {
+    float: left;
+}
+
+.shopping-categories .group-list .list-categories {
+    margin-left: 17px !important;
+    margin-right: 0 !important;
+}
+
+.shopping-categories .group-list .list-categories:first-child {
+    padding-right: 6px;
+    padding-left: 0 !important;
+}
+
+.food-card {
+    margin-left: 15px;
+    margin-right: 3px;
+}
+
+.modal-dialog .modal-content .modal-header .order-img img {
+    transform: translate(-75%, -56%);
+}
+
+.modal-footer .products-size-color-price {
+    direction: ltr;
+}
+
+.modal.modal-right .modal-heading {
+    text-align: right;
+    width: 109px;
+}
+
+.order-number {
+    text-align: right;
+}
+
+.product-sidebar {
+    border-right: 1px solid var(--logo-placeholder-font-color);
+    border-left: none;
+}
+
+.product {
+    border: none;
+    margin-right: 10px;
+    margin-left: 0 !important;
+    border-radius: 0 4px 4px 0 !important;
+}
+
+.add-customer .input-search .option-input:checked::after {
+    transform: translate(-14%, 7%) !important;
+}
+
+.option-input:checked::after {
+    transform: translate(-9%, -15%) !important;
+}
+
+.product .quan-salary .quant .minus .fa-minus {
+    margin-left: 0 !important;
+    margin-right: 3px;
+}
+
+.navbar {
+    direction: ltr;
+}
+
+.product-card {
+    height: calc(100vh - 253px);
+}
+
+.product .quan-salary .quant .qt {
+    margin-right: 5px;
+}
+
+.all-checkout-total {
+    direction: ltr;
+}
+
+.product-sidebar .close-customer-add-responsive {
+    right: 105%;
+}
+
+.login-side,
+.carousel-side,
+.login-side label,
+.footer-login p,
+.login-side .login-content form .form-check .option-input {
+    float: right;
+}
+
+.login-side .login-content form .form-check .option-input {
+    margin-left: 9px;
+    margin-top: 3px;
+}
+
+.login-side form .check-login .forget-password-login,
+.footer-login a {
+    float: left;
+}
+
+.footer-login a {
+    margin-right: 5px;
+}
+
+.product-sidebar .chekout .check-btn {
+    direction: ltr;
+}
+
+
+/* Media Query */
+
+@media (max-width: 575.98px) {
+    .input-search .input-text {
+        width: 91% !important;
+    }
+    .product-sidebar {
+        top: 10%;
+        width: 80%;
+        border: 1px solid var(--logo-placeholder-font-color);
+        transform: translateX(-24%);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .input-search .input-text {
+        width: 94% !important;
+    }
+    .product-sidebar {
+        transform: translateX(-23%);
+        border-left: 1px solid var(--logo-placeholder-font-color);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .product-sidebar {
+        transform: translateX(-56%);
+        border-left: 1px solid var(--logo-placeholder-font-color);
+    }
+    .add-customer .input-search {
+        margin-right: 10px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .input-search .input-text {
+        width: 95% !important;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+
+/* Start Products Animations*/
+
+.JScallHover:hover {
+    -webkit-transform: scale(1.01) !important;
+    -ms-transform: scale(1.01) !important;
+    transform: scale(1.01) !important;
+}
